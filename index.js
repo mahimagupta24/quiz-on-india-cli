@@ -1,5 +1,5 @@
 var readlineSync = require("readline-sync")
-var userName = readlineSync.question("what is your name?")
+var userName = readlineSync.question("what is your name? ")
 var score = 0
 console.log("welcome " + userName + " to Quiz on India")
 //play function
@@ -16,15 +16,15 @@ function play(question, answer) {
 }
 
 var questions = [{
-  question: "What is the capital of India?",
+  question: "What is the capital of India? ",
   
   answer: "new delhi"
 }, {
-  question: "Which city is called the pink city?",
+  question: "Which city is called the pink city? ",
   
   answer: "jaipur"
 }, {
-  question: "Who was the first lady chief justice of India?",
+  question: "Who was the first lady chief justice of India? ",
   
   answer: "justice fatima beevi"
 }, {
@@ -32,7 +32,7 @@ var questions = [{
   
   answer: "wular"
 }, {
-  question: "Who is known as iron man of India?",
+  question: "Who is known as iron man of India? ",
   
   answer: "sardar vallabh bhai patel"
 }]
