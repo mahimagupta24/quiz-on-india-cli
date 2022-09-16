@@ -1,5 +1,6 @@
 # Mark2
-Quiz on India CLI App
+Quiz on India
 
-A CLI App to test how well do you know India
+
+A CLI App made using repl.it to test how well do you know India.
 
